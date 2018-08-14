@@ -9,11 +9,13 @@
   "scripts": {
     "test": "mocha --require babel-core/register --colors ./test/test.js",
     "build": "webpack",
-    "lint": "eslint ./"
+    "lint": "eslint ./",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SpacebarTech/audio-recorder.git"
+    "url": "https://github.com/SpacebarTech/audio-recorder.git"
   },
   "author": "",
   "license": "ISC",
@@ -44,9 +46,9 @@
     "mocha": "^5.2.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^6.0.6",
-    "semantic-release": "^15.7.0",
+    "semantic-release": "^15.9.8",
     "semantic-release-cli": "^4.0.6",
-    "travis-deploy-once": "^5.0.1",
+    "travis-deploy-once": "^5.0.2",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.5.17",
     "webpack": "^3.6.0",
@@ -75,7 +77,11 @@
     "analyzeCommits": {
       "preset": "angular",
       "releaseRules": [
-        {"type": "docs", "scope": "readme", "release": "patch"}
+        {
+          "type": "docs",
+          "scope": "readme",
+          "release": "patch"
+        }
       ]
     }
   },
