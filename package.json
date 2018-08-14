@@ -1,8 +1,8 @@
 {
-  "name": "@spacebartech/module-template",
+  "name": "@spacebartech/audio-recorder",
   "version": "0.0.0-development",
-  "description": "[NAME OF MODULE]",
-  "main": "dist/[MODULE_NAME].js",
+  "description": "audio recorder vue component",
+  "main": "dist/audioRecorder.js",
   "files": [
     "dist/"
   ],
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SpacebarTech/node-module-template.git"
+    "url": "git+https://github.com/SpacebarTech/audio-recorder.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SpacebarTech/node-module-template/issues"
+    "url": "https://github.com/SpacebarTech/audio-recorder.git/issues"
   },
-  "homepage": "https://github.com/SpacebarTech/node-module-template#readme",
+  "homepage": "https://github.com/SpacebarTech/audio-recorder.git#readme",
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",

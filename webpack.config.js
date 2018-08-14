@@ -3,11 +3,11 @@ const path = require( 'path' );
 // Add dependancies to exclode in externals.
 // Ex externals : { moment: 'moment' }
 module.exports = {
-  entry: path.resolve( __dirname, 'src/main.js' ),
+  entry: path.resolve( __dirname, 'src/main.vue' ),
   output: {
-    filename: '[MODULE_NAME].js',
+    filename: 'audioRecorder.js',
 		path: path.resolve( __dirname, 'dist' ),
-		library: '[MODULE_NAME]',
+		library: 'audioRecorder',
 		libraryTarget: 'umd',
 		umdNamedDefine: true
   },
