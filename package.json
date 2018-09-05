@@ -2,7 +2,7 @@
   "name": "@spacebartech/audio-recorder",
   "version": "0.0.0-development",
   "description": "audio recorder vue component",
-  "main": "dist/audioRecorder.js",
+  "main": "dist/index.js",
   "files": [
     "dist/"
   ],

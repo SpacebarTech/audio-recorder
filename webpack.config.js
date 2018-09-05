@@ -5,7 +5,7 @@ const path = require( 'path' );
 module.exports = {
   entry: path.resolve( __dirname, 'src/main.vue' ),
   output: {
-    filename: 'audioRecorder.js',
+    filename: 'index.js',
 		path: path.resolve( __dirname, 'dist' ),
 		library: 'audioRecorder',
 		libraryTarget: 'umd',
