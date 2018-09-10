@@ -10,7 +10,7 @@
     "test": "mocha --require babel-core/register --colors ./test/test.js",
     "build": "webpack",
     "lint": "eslint ./",
-    "travis-deploy-once": "travis-deploy-once",
+    "travis-deploy-once": "travis-deploy-once --pro",
     "semantic-release": "semantic-release"
   },
   "repository": {
