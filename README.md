@@ -9,6 +9,8 @@ audio recorder vue component
 
 ## Usage
 
+const AudioRecorder = require( '@spacebartech/audio-recorder' )
+
 ## Tests
 
 `npm test`
